@@ -1,0 +1,68 @@
+/* style.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+  }
+  
+  /* Title styles */
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffc800;
+    text-shadow: 2px 2px 2px black;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  p1 {
+    margin-bottom: 30px;
+    color: #000000;
+    text-shadow: 1px 1px 1px rgb(255, 225, 0);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Card styles */
+  .card-img-top {
+    border-radius: 10px 10px 0 0;
+    object-fit: cover; /* Ensure images fill their container and maintain aspect ratio */
+    height: 200px; /* Set a fixed height for consistency */
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #6c757d;
+  }
+  
+  .btn-primary {
+    background-color: #ffe600;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #949494;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+/* Order */
+
+
+
